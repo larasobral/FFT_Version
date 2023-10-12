@@ -1,7 +1,7 @@
-module SinCosROM #(parameter W = 16)(
-    input logic [6:0] angle, // Entrada de ângulo de 0 a 90 graus (0 a 90 em ponto fixo)
-    output logic [W-1:0] sin, // Saída do seno
-    output logic [W-1:0] cos // Saída do cosseno
+module rom #(parameter W = 16, parameter N = 16)(
+    input logic [6:0] address, // Entrada de ângulo de 0 a 90 graus (0 a 90 em ponto fixo)
+    output logic [W-1:0] sin[N], // Saída do seno
+    output logic [W-1:0] cos[N]// Saída do cosseno
 );
 
     // Tamanho da ROM baseado na quantidade de entradas possíveis (0 a 90 graus)
@@ -198,11 +198,11 @@ module SinCosROM #(parameter W = 16)(
     };
 
     // Saídas baseadas no ângulo de entrada
-    assign sin = sin_rom[angle];
-    assign cos = cos_rom[angle];
+      generate
+        for (genvar i = 0; i < N; i++) begin
+            assign sin[i] = sin_rom[address];
+            assign cos[i] = cos_rom[address];
+        end
+    endgenerate
 
 endmodule
-
-
-
-
