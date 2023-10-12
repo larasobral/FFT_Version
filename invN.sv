@@ -5,7 +5,8 @@ module invN #(parameter N=16,
 	(output logic signed [W:0] y
 	);
   
-	logic [W:0] A, T;
+	logic [W:0] A;
+	logic [W:0] T;
 	always_comb begin
 		A = 0;
 		T=1 << (BIT_FRAC);
