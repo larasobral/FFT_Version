@@ -12,21 +12,17 @@ module computeMatrix #(
     logic [W-1:0] cos[N];
     logic [6:0] address;
 
-
     rom #(.W(W), .N(N))ROM_instance(
     .address(address), // Entrada de ângulo de 0 a 90 graus (0 a 90 em ponto fixo)
     .sin(sin), // Saída do seno
     .cos(cos)); // Saída do cosseno
-
-
-   // Inicialização dos valores de sin e cos (um único cálculo no início)
 
     // Computation of the Fourier matrix
 	generate
 		for (genvar k = 0; k < N; k++) begin
 	    		assign X[0] = 0;
 			assign X[N] = 0;
-		//n address = k;  
+		
 			if (k<2*N)begin 
 				assign X[k] = X[0] + (cos[k]*x[k]) - (sin[k]*x[N+k]);
 			end
