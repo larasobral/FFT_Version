@@ -1,0 +1,4109 @@
+(DELAYFILE
+  (SDFVERSION  "OVI 3.0")
+  (DESIGN      "FFT")
+  (DATE        "Thu Oct 12 10:28:13 -03 2023")
+  (VENDOR      "Cadence, Inc.")
+  (PROGRAM     "Genus(TM) Synthesis Solution")
+  (VERSION     "21.16-s062_1")
+  (DIVIDER     .)
+  (VOLTAGE     ::1.1)
+  (PROCESS     "::1.0")
+  (TEMPERATURE ::0.0)
+  (TIMESCALE   1ps)
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell32)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell33)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell34)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell35)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell36)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell37)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell38)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell39)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell40)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell41)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell42)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell43)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell44)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell45)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell46)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell47)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell48)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell49)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell50)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell51)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell52)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell53)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell54)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell55)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell56)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell57)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell58)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell59)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell60)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell61)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell62)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell63)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell64)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell65)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell66)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell67)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell68)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell69)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell70)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell71)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell72)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell73)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell74)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell75)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell76)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell77)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell78)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell79)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell80)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell81)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell82)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell83)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell84)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell85)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell86)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell87)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell88)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell89)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell90)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell91)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell92)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell93)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell94)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell95)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell96)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell97)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell98)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell99)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell100)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell101)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell102)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell103)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell104)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell105)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell106)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell107)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell108)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell109)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell110)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell111)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell112)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell113)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell114)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell115)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell116)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell117)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell118)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell119)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell120)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell121)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell122)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell123)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell124)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell125)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell126)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell127)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell128)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell129)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell130)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell131)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell132)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell133)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell134)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell135)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell136)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell137)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell138)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell139)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell140)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell141)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell142)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell143)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell144)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell145)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell146)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell147)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell148)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell149)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell150)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell151)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell152)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell153)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell154)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell155)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell156)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell157)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell158)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell159)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell160)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell161)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell162)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell163)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell164)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell165)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell166)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell167)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell168)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell169)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell170)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell171)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell172)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell173)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell174)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell175)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell176)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell177)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell178)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell179)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell180)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell181)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell182)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell183)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell184)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell185)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell186)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell187)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell188)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell189)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell190)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell191)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell192)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell193)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell194)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell195)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell196)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell197)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell198)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell199)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell200)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell201)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell202)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell203)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell204)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell205)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell206)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell207)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell208)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell209)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell210)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell211)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell212)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell213)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell214)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell215)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell216)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell217)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell218)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell219)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell220)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell221)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell222)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell223)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell224)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell225)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell226)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell227)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell228)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell229)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell230)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell231)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell232)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell233)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell234)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell235)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell236)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell237)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell238)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell239)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell240)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell241)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell242)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell243)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell244)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell245)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell246)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell247)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell248)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell249)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell250)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell251)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell252)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell253)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell254)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell255)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell256)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell257)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell258)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell259)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell260)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell261)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell262)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell263)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell264)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell265)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell266)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell267)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell268)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell269)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell270)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell271)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell272)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell273)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell274)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell275)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell276)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell277)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell278)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell279)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell280)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell281)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell282)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell283)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell284)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell285)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell286)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell287)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell288)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell289)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell290)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell291)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell292)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell293)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell294)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell295)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell296)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell297)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell298)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell299)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell300)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell301)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell302)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell303)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell304)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell305)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell306)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell307)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell308)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell309)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell310)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell311)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell312)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell313)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell314)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell315)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell316)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell317)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell318)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell319)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell320)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell321)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell322)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell323)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell324)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell325)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell326)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell327)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell328)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell329)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell330)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell331)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell332)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell333)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell334)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell335)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell336)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell337)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell338)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell339)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell340)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell341)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell342)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell343)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell344)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell345)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell346)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell347)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell348)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell349)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell350)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell351)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell352)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell353)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell354)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell355)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell356)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell357)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell358)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell359)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell360)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell361)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell362)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell363)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell364)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell365)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell366)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell367)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell368)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell369)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell370)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell371)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell372)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell373)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell374)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell375)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell376)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell377)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell378)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell379)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell380)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell381)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell382)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell383)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell384)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell385)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell386)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell387)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell388)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell389)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell390)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell391)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell392)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell393)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell394)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell395)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell396)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell397)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell398)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell399)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell400)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell401)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell402)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell403)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell404)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell405)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell406)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell407)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell408)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell409)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell410)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell411)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell412)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell413)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell414)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell415)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell416)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell417)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell418)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell419)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell420)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell421)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell422)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell423)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell424)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell425)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell426)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell427)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell428)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell429)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell430)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell431)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell432)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell433)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell434)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell435)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell436)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell437)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell438)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell439)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell440)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell441)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell442)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell443)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell444)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell445)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell446)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell447)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell448)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell449)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell450)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell451)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell452)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell453)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell454)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell455)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell456)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell457)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell458)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell459)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell460)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell461)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell462)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell463)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell464)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell465)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell466)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell467)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell468)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell469)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell470)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell471)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell472)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell473)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell474)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell475)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell476)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell477)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell478)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell479)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell480)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell481)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell482)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell483)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell484)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell485)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell486)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell487)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell488)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell489)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell490)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell491)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell492)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell493)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell494)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell495)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell496)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell497)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell498)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell499)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell500)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell501)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell502)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell503)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell504)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell505)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell506)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell507)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell508)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell509)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell510)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell511)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell512)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell513)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell514)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell515)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell516)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell517)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell518)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell519)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell520)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell521)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell522)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell523)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell524)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell525)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell526)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell527)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell528)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell529)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell530)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell531)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell532)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell533)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell534)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell535)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell536)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell537)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell538)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell539)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell540)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell541)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell542)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE Matrix.tie_0_cell543)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell1)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell2)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell3)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell4)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell5)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell6)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell7)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell8)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell9)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell10)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell11)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell12)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell13)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell14)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell15)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell16)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell17)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell18)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell19)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell20)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell21)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell22)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell23)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell24)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell25)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell26)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell27)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell28)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell29)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell30)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell31)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell32)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell33)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell34)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell35)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell36)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell37)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell38)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell39)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell40)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell41)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell42)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell43)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell44)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell45)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell46)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell47)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell48)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell49)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell50)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell51)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell52)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell53)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell54)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell55)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell56)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell57)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell58)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell59)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell60)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell61)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell62)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell63)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell64)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell65)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell66)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell67)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell68)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell69)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell70)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell71)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell72)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell73)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell74)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell75)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell76)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell77)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell78)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell79)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell80)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell81)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell82)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell83)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell84)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell85)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell86)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell87)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell88)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell89)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell90)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell91)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell92)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell93)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell94)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell95)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell96)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell97)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell98)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell99)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell100)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell101)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell102)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell103)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell104)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell105)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell106)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell107)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell108)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell109)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell110)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell111)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell112)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell113)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell114)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell115)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell116)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell117)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell118)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell119)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell120)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell121)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell122)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell123)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell124)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell125)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell126)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell127)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell128)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell129)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell130)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell131)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell132)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell133)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell134)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell135)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell136)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell137)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell138)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell139)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell140)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell141)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell142)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell143)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell144)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell145)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell146)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell147)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell148)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell149)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell150)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell151)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell152)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell153)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell154)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell155)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell156)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell157)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell158)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell159)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell160)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell161)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell162)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell163)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell164)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell165)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell166)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell167)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell168)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell169)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell170)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell171)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell172)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell173)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell174)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell175)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell176)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell177)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell178)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell179)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell180)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell181)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell182)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell183)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell184)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell185)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell186)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell187)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell188)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell189)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell190)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell191)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell192)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell193)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell194)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell195)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell196)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell197)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell198)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell199)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell200)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell201)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell202)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell203)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell204)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell205)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell206)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell207)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell208)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell209)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell210)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell211)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell212)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell213)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell214)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell215)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell216)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell217)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell218)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell219)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell220)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell221)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell222)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell223)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell224)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell225)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell226)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell227)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell228)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell229)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell230)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell231)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell232)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell233)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell234)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell235)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell236)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell237)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell238)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell239)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell240)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell241)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell242)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell243)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell244)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell245)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell246)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell247)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell248)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell249)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell250)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell251)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell252)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell253)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell254)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell255)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell256)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell257)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell258)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell259)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell260)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell261)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell262)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell263)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell264)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell265)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell266)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell267)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell268)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell269)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell270)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell271)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell272)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell273)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell274)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell275)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell276)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell277)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell278)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell279)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell280)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell281)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell282)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell283)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell284)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell285)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell286)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell287)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell288)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell289)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell290)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell291)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell292)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell293)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell294)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell295)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell296)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell297)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell298)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell299)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell300)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell301)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell302)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell303)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell304)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell305)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell306)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell307)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell308)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell309)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell310)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell311)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell312)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell313)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell314)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell315)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell316)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell317)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell318)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell319)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell320)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell321)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell322)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell323)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell324)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell325)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell326)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell327)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell328)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell329)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell330)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell331)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell332)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell333)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell334)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell335)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell336)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell337)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell338)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell339)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell340)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell341)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell342)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell343)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell344)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell345)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell346)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell347)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell348)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell349)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell350)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell351)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell352)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell353)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell354)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell355)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell356)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell357)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell358)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell359)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell360)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell361)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell362)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell363)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell364)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell365)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell366)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell367)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell368)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell369)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell370)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell371)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell372)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell373)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell374)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell375)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell376)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell377)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell378)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell379)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell380)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell381)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell382)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell383)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell384)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell385)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell386)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell387)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell388)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell389)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell390)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell391)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell392)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell393)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell394)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell395)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell396)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell397)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell398)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell399)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell400)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell401)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell402)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell403)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell404)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell405)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell406)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell407)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell408)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell409)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell410)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell411)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell412)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell413)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell414)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell415)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell416)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell417)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell418)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell419)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell420)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell421)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell422)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell423)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell424)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell425)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell426)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell427)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell428)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell429)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell430)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell431)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell432)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell433)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell434)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell435)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell436)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell437)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell438)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell439)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell440)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell441)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell442)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell443)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell444)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell445)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell446)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell447)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell448)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell449)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell450)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell451)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell452)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell453)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell454)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell455)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell456)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell457)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell458)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell459)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell460)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell461)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell462)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell463)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell464)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell465)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell466)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell467)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell468)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell469)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell470)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell471)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell472)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell473)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell474)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell475)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell476)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell477)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell478)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell479)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell480)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell481)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell482)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell483)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell484)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell485)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell486)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell487)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell488)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell489)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell490)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell491)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell492)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell493)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell494)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell495)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell496)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell497)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell498)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell499)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell500)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell501)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell502)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell503)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell504)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell505)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell506)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell507)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell508)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell509)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell510)
+  )
+  (CELL
+     (CELLTYPE "TIELO")
+     (INSTANCE tie_0_cell511)
+  )
+)

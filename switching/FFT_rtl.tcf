@@ -1,0 +1,12 @@
+# Este é um exemplo de arquivo TCF para design FFT
+# Substitua "DESIGN_NAME" pelo nome real do seu design.
+
+# Defina a hierarquia do design.
+# Substitua "TOP_MODULE" pelo nome do seu módulo superior.
+set_design_hierarchy -name FFT
+
+# Você pode adicionar outras configurações específicas do seu design, se necessário.
+
+# Salve o arquivo TCF.
+write_tcf -force ${SIMDIR}/FFT_rtl.tcf
+
