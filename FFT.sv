@@ -2,20 +2,20 @@
 `include "computeMatrix.sv"
 `include "swap.sv"
 `include "divbyN.sv"
-`include "LUT.sv"
+`include "rom.sv"
 
 module FFT #(parameter N = 16, parameter W=16)
-            (input logic signed [W-1:0] x[N][1:0],
-             output logic signed [W+N-1:0] X[N][1:0]);
+            (input logic signed [W:0] x[2*N],
+             output logic signed [W+N-1:0] X[2*N]);
       
-	logic signed [W-1:0] xe[N/2][1:0], xo[N/2][1:0];
-	logic signed [W+N/2-1:0] Xe[N/2][1:0], Xo[N/2][1:0];
+	logic signed [W-1:0] xe[N], xo[N];
+	logic signed [W+N/2-1:0] Xe[N], Xo[N];
 
 	genvar k;
 	generate
-		for(k=0; k<N/2; k++)begin
-			assign xe[k][1:0] = x[2*k][1:0];
-			assign xo[k][1:0] = x[2*k+1][1:0];
+		for(k=0; k<N; k++)begin
+			assign xe[k] = x[2*k];
+			assign xo[k] = x[2*k+1];
 		end
 
 		if(N[0]) begin
@@ -29,12 +29,12 @@ module FFT #(parameter N = 16, parameter W=16)
 endmodule: FFT
 
 module iFFT #(parameter N = 16, parameter W = 16)
-            (input logic signed [W:0] x[N][1:0],
-             output logic signed [W+N-1:0] X[N][1:0]);
+            (input logic signed [W:0] x[2*N],
+             output logic signed [W+N-1:0] X[2*N]);
   
-  logic signed [W:0] x_in[N][1:0];
-  logic signed [W+N-1:0] Xa[N][1:0];
-  logic signed [W+N-1:0] Xb[N][1:0];
+  logic signed [W:0] x_in[2*N];
+  logic signed [W+N-1:0] Xa[2*N];
+  logic signed [W+N-1:0] Xb[2*N];
   
   swap #(.N(N), .W(W)) swap_in(.x(x), .y(x_in));
   FFT #(.N(N), .W(W)) mFFT(.x(x_in), .X(Xa));
@@ -46,8 +46,8 @@ endmodule: iFFT
 module RecursiveFFT #(parameter N = 16, 
                       parameter W = 16,
                       parameter sel = 1)
-                     (input logic signed [W-1:0] x[N][1:0],
-                      output logic signed [W+N-1:0] X[N][1:0]);
+                     (input logic signed [W:0] x[2*N],
+                      output logic signed [W+N-1:0] X[2*N]);
 
   if(!sel)
     FFT #(.N(N), .W(W)) mFFT(.x(x), .X(X));
@@ -55,9 +55,3 @@ module RecursiveFFT #(parameter N = 16,
     iFFT #(.N(N), .W(W)) miFFT(.x(x), .X(X));
  
 endmodule: RecursiveFFT
-
-//parameter BIT_INT = 16;
-//parameter BIT_FRAC = 16;
-//parameter W = BIT_INT+BIT_FRAC;
-
-
