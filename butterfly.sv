@@ -1,49 +1,45 @@
-`include "LUT.sv"
+`include "rom.sv"
 
 module butterfly #(
     parameter N = 16,
     parameter W = 16
 )(
-    input logic signed [W + N/2 - 1:0] Xe[N / 2][1:0],
-    input logic signed [W + N/2 - 1:0] Xo[N / 2][1:0],
-    output logic signed [W + N - 1:0] X[N][1:0]
+    input logic signed [W+N/2-1:0] Xe[N],
+    input logic signed [W+N/2-1:0] Xo[N],
+    output logic signed [W+N-1:0] X[2*N]
 );
 
-    logic signed [W + N / 2:0] G[N][1:0];
-    logic signed [W + N / 2:0] value[N][1:0];
-    localparam theta = -2 * $acos(-1)/N;
-    logic k;
+    logic signed [W+N/2:0] G[2*N];
+    logic [W-1:0] sin[N];
+    logic [W-1:0] cos[N];
+    logic [6:0] k;
+    //logic signed [W + N / 2:0] sin[N][1:0];
+  //  localparam theta = -2 * $acos(-1)/N;
+     	
+    rom #(.W(W), .N(N))ROM_instance(
+    .address(k), // Entrada de ângulo de 0 a 90 graus (0 a 90 em ponto fixo)
+    .sin(sin), // Saída do seno
+    .cos(cos)); // Saída do cosseno
 
-		LUT #(.W(W), .N(N)) lut_sin (
-                    .sine_or_cosine(0), 
-                    .angle(theta*k), 
-                    .value(value[k][0]) // Saída da LUT para o seno
-                );
-		
-                LUT #(.W(W), .N(N)) lut_cos (
-                    .sine_or_cosine(1), 
-                    .angle(theta*k), 
-                    .value(value[k][1]) // Saída da LUT para o cosseno
-                );
-    
     generate
-        for (genvar k = 0; k < (N/2); k++) begin
-				
+        for (genvar k = 0; k < N/2; k++) begin
+		//assign address = k;
 		 // Atribuição dos valores
-            	assign G[k][0] = ((value[k][1])*(Xo[k][0]))-((value[k][0])*(Xo[k][1]));
-        	assign G[k][1] = ((value[k][1])*(Xo[k][1]))+((value[k][0])*(Xo[k][0]));
+            	assign G[k] = ((cos[k])*(Xo[k]))-((sin[k])*(Xo[k+N]));
+        	assign G[k+N] = ((cos[k])*(Xo[k+N]))+((sin[k])*(Xo[k]));
 
-            // Butterfly computation
-     	       assign X[k][0] = Xe[k][0] + G[k][0];
-   	       assign X[k][1] = Xe[k][1] + G[k][1];
+          	// Butterfly computation
+     	       assign X[k] = Xe[k] + G[k];
+   	       assign X[k+N] = Xe[k+N/2] + G[k+N/2];
 
-               assign X[k + N/2][0] = Xe[k][0] - G[k][0];
-               assign X[k + N/2][1] = Xe[k][1] - G[k][1];
+               assign X[k + N/2] = Xe[k]- G[k];
+               assign X[k + N + N/2] = Xe[k+N/2] - G[k+N/2];
 
                 
         end
     endgenerate
 
 endmodule: butterfly 
+
 
 
