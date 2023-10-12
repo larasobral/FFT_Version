@@ -1,57 +1,41 @@
-`include "butterfly.sv"
-`include "computeMatrix.sv"
-`include "swap.sv"
-`include "divbyN.sv"
-`include "rom.sv"
+`timescale 1ns/1ps
+parameter BIT_INT = 8;
+parameter BIT_FRAC = 8;
+parameter W = BIT_INT+BIT_FRAC;
 
-module FFT #(parameter N = 16, parameter W=16)
-            (input logic signed [W:0] x[2*N],
-             output logic signed [W+N-1:0] X[2*N]);
-      
-	logic signed [W-1:0] xe[N], xo[N];
-	logic signed [W+N/2-1:0] Xe[N], Xo[N];
+`include "FFT.sv"
 
-	genvar k;
-	generate
-		for(k=0; k<N; k++)begin
-			assign xe[k] = x[2*k];
-			assign xo[k] = x[2*k+1];
+`define SAMPLES 16
+parameter N = `SAMPLES;
+
+module top();
+	logic signed [W:0] x[2*N];
+	logic signed [W+N-1:0] X[2*N];
+  
+  // Set sel=0 to compute the forward FFT
+  // Set sel=1 to compute the inverse FFT
+	RecursiveFFT #(.N(N), .W(W), .sel(0)) RFFT(.x(x), .X(X));
+  
+
+	localparam F=1<<BIT_FRAC;
+
+	initial begin
+    		for(int k=0; k<N; k++)begin
+      			x[k]=k<<<BIT_FRAC;
+      			x[k + N]=(N-1-k)<<<BIT_FRAC;
+
 		end
-
-		if(N[0]) begin
-			butterfly #(.N(N), .W(W)) m_butterfly(.Xe(Xe), .Xo(Xo), .X(X));
-			FFT #(.N(N/2), .W(W)) FFT_e(.x(xe), .X(Xe));
-			FFT #(.N(N/2), .W(W)) FFT_o(.x(xo), .X(Xo));
+		#1
+		testFFTinput(.x(x), .X(X));
+		$finish;
+	end
+	task testFFTinput(input logic signed [W:0] x[2*N], 
+                    	  input logic signed [W+N-1:0] X[2*N]);
+		for(int k=0; k<N; k++)begin 
+      			$display("x[%0d]=%0f+i*(%0f), X[%0d]=%f+i*(%f)", 
+			k, real'(x[k])/F, real'(x[k + N])/F,
+			k, real'(X[k])/F, real'(X[k + N])/F);
 		end
-		else computeMatrix #(.N(N), .W(W)) Matrix(.x(x), .X(X));
-	endgenerate 
-	  
-endmodule: FFT
+	endtask: testFFTinput
 
-module iFFT #(parameter N = 16, parameter W = 16)
-            (input logic signed [W:0] x[2*N],
-             output logic signed [W+N-1:0] X[2*N]);
-  
-  logic signed [W:0] x_in[2*N];
-  logic signed [W+N-1:0] Xa[2*N];
-  logic signed [W+N-1:0] Xb[2*N];
-  
-  swap #(.N(N), .W(W)) swap_in(.x(x), .y(x_in));
-  FFT #(.N(N), .W(W)) mFFT(.x(x_in), .X(Xa));
-  swap #(.N(N), .W(W+N-1)) swap_out(.x(Xa), .y(Xb));
-  divbyN #(.N(N), .W(W+N-1)) divN(.x(Xb), .y(X));
-  
-endmodule: iFFT
-
-module RecursiveFFT #(parameter N = 16, 
-                      parameter W = 16,
-                      parameter sel = 1)
-                     (input logic signed [W:0] x[2*N],
-                      output logic signed [W+N-1:0] X[2*N]);
-
-  if(!sel)
-    FFT #(.N(N), .W(W)) mFFT(.x(x), .X(X));
-  else
-    iFFT #(.N(N), .W(W)) miFFT(.x(x), .X(X));
- 
-endmodule: RecursiveFFT
+endmodule: top
