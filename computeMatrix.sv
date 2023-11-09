@@ -1,35 +1,59 @@
-`include "rom.sv"
+ `include "memory_ed2.sv"
 
 module computeMatrix #(
     parameter N = 16,
-    parameter W = 16 
-)(
-    input logic signed [W:0] x[2*N],
-    output logic signed [W + N - 1:0] X[2*N]
-);
+    parameter W = 16)
 
-    logic [W-1:0] sin[N];
-    logic [W-1:0] cos[N];
-    logic [6:0] address;
+(   input logic signed [W:0] x[N][1:0],
+    output logic signed [W+N-1:0] X[N][1:0]);
 
-    rom #(.W(W), .N(N))ROM_instance(
-    .address(address), // Entrada de ângulo de 0 a 90 graus (0 a 90 em ponto fixo)
-    .sin(sin), // Saída do seno
-    .cos(cos)); // Saída do cosseno
+    logic signed[7:0] sin [16:0];
+    logic signed[7:0] cos [16:0];
+
+	memory_ed2 #(16, 16)dut(
+	.sin_rom(sin),
+	.cos_rom(cos));
+
+	always_comb begin
+
+		for(int k=0; k<N; k++)begin
+     			X[k][1:0] = {0,0};
+      			for(int j=0; j<N; j++)begin
+			//	logic [W-N-1:0] aux[4];
+
+				assign y = (cos[k*j][16]==x[j][0])? 
+				
+				  X[k][0] = X[k][0]+((cos[k*j][15:0])*(x[j][0]))-((sin[k*j][15:0])*(x[j][1]));
+				  X[k][1] = X[k][1]+((cos[k*j][15:0])*(x[j][1]))+((sin[k*j][15:0])*(x[j][0]));
+				
+        		end
+		end
+ 	end
+
+    initial begin
+	#10
+	for (int k = 0; k < N; k++) begin
+		$display("\n\n\n\nX[%d][0]:", k);
+		for(int j =0; j<N; j++) begin
+			$display("y = %b", cos[k*j][16]);
+			$display("cos = ", cos[k*j][16]);
+		end
+    		$display("X[%d][0] =%0b", k, X[k][0],);
+	end
+	$finish;
+    end 
+endmodule:computeMatrix 
+
 
     // Computation of the Fourier matrix
-	generate
-		for (genvar k = 0; k < N; k++) begin
-	    		assign X[0] = 0;
-			assign X[N] = 0;
-		
-			if (k<2*N)begin 
-				assign X[k] = X[0] + (cos[k]*x[k]) - (sin[k]*x[N+k]);
-			end
-			else begin 
-				assign X[N+k] = X[N] + (cos[k]*x[N+k]) + (sin[k]*x[k]);
-			end
-        	end
+	/*generate
+    		for(genvar k=0; k<N; k++)begin
+     			//assign X[k][1:0] = {0,0};
+      			for(genvar j=0; j<N; j++)begin
+				assign X[k][0] = X[k][0]+((cos[k*j])*(x[j][0]))-((sin[k*j])*(x[j][1]));
+				assign X[k][1] = X[k][0]+((cos[k*j])*(x[j][1]))+((sin[k*j])*(x[j][0]));
+        		end
+		end
 	endgenerate
 
-endmodule: computeMatrix 
+*/
